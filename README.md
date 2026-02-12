@@ -3,127 +3,111 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>As 48 Leis do Poder - Oferta Especial</title>
+<title>As 48 Leis do Poder — Oferta Exclusiva</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
+
 body{
     font-family:'Inter',sans-serif;
-    background:#050505;
-    color:#eee;
-    line-height:1.6;
+    background:#000;
+    color:#fff;
+    text-align:center;
 }
 
 header{
-    position:fixed;
-    top:0;
-    width:100%;
-    background:#050505;
-    padding:15px 5%;
-    border-bottom:1px solid rgba(255,215,0,.2);
-    z-index:999;
-}
-nav{
-    max-width:1200px;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-.logo{
-    font-family:'Cinzel',serif;
-    font-size:1.3rem;
-    color:#D4AF37;
-    text-decoration:none;
-}
-.btn-top{
-    background:linear-gradient(135deg,#00c851,#007e33);
-    padding:10px 22px;
-    border-radius:30px;
-    color:#fff;
-    text-decoration:none;
-    font-weight:700;
+    padding:40px 20px;
+    border-bottom:1px solid rgba(255,255,255,.1);
 }
 
-.hero{
-    min-height:100vh;
-    padding:140px 5% 80px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.hero-content{
-    max-width:900px;
-    text-align:center;
-}
-.hero h1{
+header h1{
     font-family:'Cinzel',serif;
-    font-size:2.8rem;
-    color:#D4AF37;
-    margin-bottom:20px;
-}
-.hero p{
-    font-size:1.1rem;
-    color:#ccc;
-    margin-bottom:25px;
-}
-
-.price-box{
-    margin:30px 0;
-}
-.old{
-    text-decoration:line-through;
-    color:#777;
-}
-.price{
     font-size:2.5rem;
-    color:#00c851;
-    font-weight:700;
+    margin-bottom:15px;
 }
 
-.cta{
-    display:inline-block;
-    background:linear-gradient(135deg,#00c851,#007e33);
-    padding:18px 45px;
-    border-radius:40px;
-    color:#fff;
-    text-decoration:none;
+header h2{
     font-size:1.2rem;
+    font-weight:400;
+    color:#ccc;
+}
+
+.container{
+    padding:40px 20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.highlight{
+    color:#00ff6a;
     font-weight:700;
-    margin-top:15px;
-    box-shadow:0 0 20px rgba(0,200,81,.4);
 }
 
 .section{
-    padding:80px 5%;
-    text-align:center;
+    margin:40px 0;
 }
-.section h2{
-    font-family:'Cinzel',serif;
-    color:#D4AF37;
-    margin-bottom:30px;
+
+.section h3{
+    font-size:1.6rem;
+    margin-bottom:15px;
 }
-.grid{
-    max-width:1000px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
+
+.text{
+    font-size:1.05rem;
+    color:#ccc;
+    line-height:1.7;
 }
-.card{
-    background:#0a0a0a;
-    border:1px solid rgba(212,175,55,.2);
-    border-radius:15px;
-    padding:25px;
+
+.benefits{
+    margin-top:20px;
+    text-align:left;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.benefits li{
+    margin:12px 0;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:#666;
+    font-size:1.2rem;
+    margin-top:20px;
+}
+
+.price{
+    font-size:3.5rem;
+    font-weight:800;
+    color:#00ff6a;
+    margin:15px 0 30px;
+}
+
+.btn{
+    background:linear-gradient(135deg,#00ff6a,#00c851);
+    padding:22px 35px;
+    border-radius:60px;
+    color:#000;
+    font-size:1.4rem;
+    font-weight:800;
+    text-decoration:none;
+    box-shadow:0 0 25px rgba(0,255,100,.6);
+    animation:pulse 1.5s infinite;
+    display:inline-block;
+}
+
+@keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(0,255,100,.7)}
+    70%{box-shadow:0 0 0 30px rgba(0,255,100,0)}
+    100%{box-shadow:0 0 0 0 rgba(0,255,100,0)}
 }
 
 footer{
-    padding:50px 5%;
-    text-align:center;
-    background:#050505;
-    border-top:1px solid rgba(255,255,255,.1);
+    margin-top:50px;
+    font-size:.85rem;
     color:#777;
 }
 </style>
@@ -132,44 +116,59 @@ footer{
 <body>
 
 <header>
-<nav>
-<a class="logo">48 Leis do Poder</a>
-<a href="https://pay.cakto.com.br/yavyrkk_736148" class="btn-top">Comprar Agora</a>
-</nav>
+<h1>As 48 Leis do Poder</h1>
+<h2>O manual proibido que revela as estratégias usadas por líderes, reis, empresários e estrategistas para dominar influência, respeito e controle social.</h2>
 </header>
 
-<section class="hero">
-<div class="hero-content">
-<h1>As 48 Leis do Poder</h1>
-<p>O manual definitivo para dominar influência, estratégia, persuasão e controle emocional.</p>
+<div class="container">
 
-<div class="price-box">
-<span class="old">De R$ 97,00</span><br>
-<span class="price">Por apenas R$ 30,00</span>
+<div class="section">
+<h3>Você sente que as pessoas não te levam a sério?</h3>
+<p class="text">
+Já percebeu que algumas pessoas sempre conseguem respeito, atenção e autoridade, enquanto outras são ignoradas, manipuladas ou deixadas de lado?
+<br><br>
+A diferença não está na sorte, aparência ou dinheiro… está no <span class="highlight">conhecimento estratégico</span>.
+</p>
 </div>
 
-<a href="https://pay.cakto.com.br/yavyrkk_736148" class="cta">Quero Acessar Agora</a>
+<div class="section">
+<h3>O que você vai aprender neste livro:</h3>
+<ul class="benefits">
+<li>✔ Como conquistar respeito sem precisar implorar</li>
+<li>✔ Como influenciar pessoas de forma inteligente</li>
+<li>✔ Como proteger-se contra manipulação</li>
+<li>✔ Como assumir controle emocional em qualquer situação</li>
+<li>✔ Como pensar estrategicamente e agir no momento certo</li>
+<li>✔ Técnicas usadas por líderes e grandes estrategistas</li>
+</ul>
 </div>
-</section>
 
-<section class="section">
-<h2>O que você vai aprender</h2>
-<div class="grid">
-<div class="card">Como ganhar respeito e autoridade</div>
-<div class="card">Como se tornar mentalmente imbatível</div>
-<div class="card">Como influenciar pessoas com estratégia</div>
-<div class="card">Como evitar armadilhas sociais</div>
+<div class="section">
+<h3>Imagine-se dominando qualquer ambiente...</h3>
+<p class="text">
+Imagine entrar em qualquer ambiente sabendo exatamente o que dizer, como agir e quando se posicionar.
+<br><br>
+Imagine nunca mais ser passado para trás, manipulado ou desrespeitado.
+<br><br>
+Esse livro entrega as ferramentas mentais que transformam pessoas comuns em figuras de poder.
+</p>
 </div>
-</section>
 
-<section class="section">
-<h2>Garantia</h2>
-<p>Você tem 7 dias para testar. Se não gostar, pode pedir reembolso total.</p>
-</section>
+<div class="section">
+<h3>Oferta Especial por Tempo Limitado</h3>
+<div class="old-price">De R$ 97,00</div>
+<div class="price">R$ 30,00</div>
+
+<a class="btn" href="https://pay.cakto.com.br/7jcf5gr_764753" target="_blank">
+QUERO TER ACESSO AGORA
+</a>
+</div>
 
 <footer>
-<p>© 2026 — Todos os direitos reservados</p>
+<p>Compra 100% segura • Acesso imediato após o pagamento • Garantia de satisfação</p>
 </footer>
+
+</div>
 
 </body>
 </html>
