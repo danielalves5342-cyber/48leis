@@ -227,11 +227,11 @@ html_code = '''<!DOCTYPE html>
         <h2>O Que Você Vai Descobrir</h2>
         <div class="feature-grid">
             <div class="feature-card">
-                <h3>👑 Lei 1: Não Ofusque o Mestre</h3>
+                <h3> Lei 1: Não Ofusque o Mestre</h3>
                 <p>Faça seus superiores se sentirem superiores. Nunca mostre que é mais capaz que eles.</p>
             </div>
             <div class="feature-card">
-                <h3>🎭 Lei 3: Oculte suas Intenções</h3>
+                <h3> Lei 3: Oculte suas Intenções</h3>
                 <p>Mantenha as pessoas fora de equilíbrio. Ninguém pode se defender do que não vê.</p>
             </div>
             <div class="feature-card">
@@ -260,13 +260,4 @@ html_code = '''<!DOCTYPE html>
 zip_path = '/mnt/kimi/output/site-48-leis-v3.zip'
 
 with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-    zipf.writestr('index.html', html_code)
-
-print("✅ NOVO SITE CRIADO!")
-print(f"📦 Arquivo: {zip_path}")
-print("\n⚠️ IMPORTANTE: Este site está SEM o vídeo por enquanto")
-print("   (o vídeo precisa ser hospedado separadamente)")
-print("\n📋 Para funcionar 100%, você precisa:")
-print("   1. Fazer upload do vídeo em um servidor de vídeos")
-print("   2. Ou usar o site sem vídeo por enquanto")
-print("\n💡 Quer que eu crie uma versão que funcione AGORA sem vídeo?")
+    zipf.writestr('index.html', html_
